@@ -3,6 +3,8 @@ A TypeScript package that generates a readable document of project dependencies 
 
 [npmjs](https://www.npmjs.com/package/deplic)
 
+Example: https://github.com/AspireOne/deplic/blob/main/dependencies.md
+
 ## Installation
 
 `pnpm i deplic`
