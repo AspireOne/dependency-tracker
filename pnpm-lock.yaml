@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       node-fetch:
-        specifier: ^3.2.10
+        specifier: ^3.3.2
         version: 3.3.2
       p-queue:
-        specifier: ^7.3.0
+        specifier: ^7.4.1
         version: 7.4.1
     devDependencies:
       '@types/node':

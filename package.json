@@ -1,5 +1,5 @@
 {
-  "name": "dep-license-list",
+  "name": "deplic",
   "version": "1.0.0",
   "description": "Generate a readable document of project dependencies with their licenses, and makes sure all licences are permissive.",
   "main": "dist/index.js",
@@ -26,8 +26,8 @@
   "author": "Matthew",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^3.2.10",
-    "p-queue": "^7.3.0"
+    "node-fetch": "^3.3.2",
+    "p-queue": "^7.4.1"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
