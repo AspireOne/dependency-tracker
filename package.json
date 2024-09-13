@@ -1,0 +1,36 @@
+{
+  "name": "dep-license-list",
+  "version": "1.0.0",
+  "description": "Generate a readable document of project dependencies with their licenses, and makes sure all licences are permissive.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "pnpm run build"
+  },
+  "bin": {
+    "deplic": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "dependencies",
+    "licenses",
+    "npm",
+    "package",
+    "scanner"
+  ],
+  "author": "Matthew",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "p-queue": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2"
+  }
+}
