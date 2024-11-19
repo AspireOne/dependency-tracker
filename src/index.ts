@@ -94,6 +94,7 @@ function parseDate(dateString: string): Date {
   // Try parsing ISO format first
   let date = new Date(dateString);
   if (!isNaN(date.getTime())) {
+    console.log(`Parsed ISO date: ${date.toISOString()}`);
     return date;
   }
 
@@ -103,6 +104,7 @@ function parseDate(dateString: string): Date {
     const [, day, month, year, hour] = specificFormatMatch;
     date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day), parseInt(hour));
     if (!isNaN(date.getTime())) {
+      console.log(`Parsed specific format date: ${date.toISOString()}`);
       return date;
     }
   }
@@ -119,6 +121,7 @@ function parseDate(dateString: string): Date {
   for (const format of formats) {
     date = new Date(dateString);
     if (!isNaN(date.getTime())) {
+      console.log(`Parsed date with format ${format}: ${date.toISOString()}`);
       return date;
     }
   }

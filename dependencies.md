@@ -1,6 +1,6 @@
 # Project Dependencies List
 
-> Generated on: 13. 9. 2024 3:48:53
+> Generated on: 20. 11. 2024 0:25:02
 
 ## Summary
 - **Total Dependencies:** 4
@@ -23,7 +23,7 @@ TypeScript definitions for node
 
 - **NPM:** [https://www.npmjs.com/package/%40types%2Fnode](https://www.npmjs.com/package/%40types%2Fnode)
 - **License:** [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
-- *Cache:* 13. 9. 2024 3:48:52
+- *Cache:*    20. 11. 2024 0
 
 ---
 
@@ -33,7 +33,7 @@ A light-weight module that brings Fetch API to node.js
 
 - **NPM:** [https://www.npmjs.com/package/node-fetch](https://www.npmjs.com/package/node-fetch)
 - **License:** [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
-- *Cache:* 13. 9. 2024 3:48:52
+- *Cache:*    20. 11. 2024 0
 
 ---
 
@@ -43,7 +43,7 @@ Promise queue with concurrency control
 
 - **NPM:** [https://www.npmjs.com/package/p-queue](https://www.npmjs.com/package/p-queue)
 - **License:** [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
-- *Cache:* 13. 9. 2024 3:48:52
+- *Cache:*    20. 11. 2024 0
 
 ---
 
@@ -53,7 +53,7 @@ TypeScript is a language for application scale JavaScript development
 
 - **NPM:** [https://www.npmjs.com/package/typescript](https://www.npmjs.com/package/typescript)
 - **License:** [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0)
-- *Cache:* 13. 9. 2024 3:48:53
+- *Cache:*    20. 11. 2024 0
 
 ---
 
